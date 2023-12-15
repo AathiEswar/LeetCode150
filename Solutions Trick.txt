@@ -43,3 +43,6 @@ TIPS:
 * String is a object so every method and operation takes more time and space use stringbuffer or stringbuilder
 * if needed to use length or size method multiple times save it ina var and use it more less memmory and time usage
 * Creating a dummy node as a head and a temp node for iterating does not take much memory both are O(1) independently
+
+
+hsfalsfkjskjlfk
