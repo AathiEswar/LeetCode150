@@ -1,0 +1,45 @@
+HASHMAP:
+1) TwoSum = curNum + x = target then x = target - curNum , Use hashmap to lookUp
+2) ValidAnagram = use count array, loop through both strings and validate the counting of each char ,check if the count is zero for all the char
+3) RansomNote = same as ValidAnagram but check in second loop
+
+ARRAYS AND STRINGS:
+1) MergeTwoSortedArrays = Reverse iteration, Compare n-1 and m-1 and swap to last(m-n-1)
+2) RemoveElements = keep track of targetval index and nonVal and swap
+3) RemoveDuplicates = start from 1,track unique element index, change if a[j] != a[j-1]
+4) MajorityElement = a)use BoyerMoore Algorithm, b)sort array and the middle element , c)hashmap!! hashmap!!
+5) BestTimeSellStock = find the maxProfit by subracting the min element and curElement while in a single loop
+6) LongestCommonPrefix = sort array and iterate through first and last element and find the common substring
+7)FIndFirstOccurenceOfString = loop through the string with the substring,if they are equal count++ else count = 0 & start i = i-count
+                               exit when the count == len(substring)
+8) RomanToInteger = map all the values,if x < x+1 then ans-=val else ans+=val
+9)LongestCommonPrefix = sort and compare first and last element and add common char to a res string
+
+
+TWO POINTERS :
+1) ValidPalindrome = use i and j ,while loop from start(i) and end(j) only consider alphanumerics and check if equal
+2) IsSubSequence = use i for s and j for t,loop through t while finding if each of s exist ,return with if i = len of s
+
+STACKS:
+1) ValidParentheses : use a stack, push closing when opening is found ,if closing is found check (if empty return false or is the top stack
+                        doesnt match then return false)
+
+
+LINKEDLIST:
+1) LinkedListCycle : a)HashMap - iterate through the head if element already in hashmap return true else put the head in the hashmap
+                     b)Floyds Tortoise and hare algorithm
+
+2) MergeTwoSortedList : create a dummy for head and temp for iterating and loop through both the list while comparing the values
+
+BINARY SEARCH :
+1) Search Insert Position : use classic binary search but return start at the last
+
+
+ALGORITHMS :
+1)Boyer Moore Algoirthm - finds the major element
+2)Floyds Tortoise and hare - finds if a loop exist
+
+TIPS:
+* String is a object so every method and operation takes more time and space use stringbuffer or stringbuilder
+* if needed to use length or size method multiple times save it ina var and use it more less memmory and time usage
+* Creating a dummy node as a head and a temp node for iterating does not take much memory both are O(1) independently
