@@ -2,6 +2,8 @@ HASHMAP:
 1) TwoSum = curNum + x = target then x = target - curNum , Use hashmap to lookUp
 2) ValidAnagram = use count array, loop through both strings and validate the counting of each char ,check if the count is zero for all the char
 3) RansomNote = same as ValidAnagram but check in second loop
+4) IsIsomorphic = create two map arrays , add the index+1(the position ) to the ascii value of the map array ,if both the map1 and map2 of
+                    a particular element is not matching return false
 
 ARRAYS AND STRINGS:
 1) MergeTwoSortedArrays = Reverse iteration, Compare n-1 and m-1 and swap to last(m-n-1)
@@ -40,8 +42,9 @@ ALGORITHMS :
 2)Floyds Tortoise and hare - finds if a loop exist
 
 TIPS:
-* String is a object so every method and operation takes more time and space use stringbuffer or stringbuilder
+* String is an object so every method and operation takes more time and space use stringbuffer or stringbuilder
 * if needed to use length or size method multiple times save it ina var and use it more less memmory and time usage
 * Creating a dummy node as a head and a temp node for iterating does not take much memory both are O(1) independently
+* Using an array is better than a hashMap for mapping
 
 
