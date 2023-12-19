@@ -4,6 +4,8 @@ HASHMAP:
 3) RansomNote = same as ValidAnagram but check in second loop
 4) IsIsomorphic = create two map arrays , add the index+1(the position ) to the ascii value of the map array ,if both the map1 and map2 of
                     a particular element is not matching return false
+5) ContainsDup2 = a) Using Hashset for sliding window for add and remove when i>=k conditon
+                  b) Using hashmap for i-curval <=k condition
 
 ARRAYS AND STRINGS:
 1) MergeTwoSortedArrays = Reverse iteration, Compare n-1 and m-1 and swap to last(m-n-1)
@@ -12,10 +14,14 @@ ARRAYS AND STRINGS:
 4) MajorityElement = a)use BoyerMoore Algorithm, b)sort array and the middle element , c)hashmap!! hashmap!!
 5) BestTimeSellStock = find the maxProfit by subracting the min element and curElement while in a single loop
 6) LongestCommonPrefix = sort array and iterate through first and last element and find the common substring
-7)FIndFirstOccurenceOfString = loop through the string with the substring,if they are equal count++ else count = 0 & start i = i-count
+7) FIndFirstOccurenceOfString = loop through the string with the substring,if they are equal count++ else count = 0 & start i = i-count
                                exit when the count == len(substring)
 8) RomanToInteger = map all the values,if x < x+1 then ans-=val else ans+=val
-9)LongestCommonPrefix = sort and compare first and last element and add common char to a res string
+9) RemoveDuplicates2 = use two pointers ,cur = 2,prev = 1, if cur == last two elements then move on , else prev++ and swap with the cur
+                       move on with the cur;
+10) LengthOfLastString = iterate from last, check if its a char count++ when a empty space is reached break;
+11) RotateArray = reverse the last K elements and first 0 to k-1 elements seperately and reverse the whole array
+12) BestTimeSellStock2 = add maxProfit when prices[i] > prices[i-1]
 
 
 TWO POINTERS :
@@ -36,6 +42,8 @@ LINKEDLIST:
 BINARY SEARCH :
 1) Search Insert Position : use classic binary search but return start at the last
 
+BINARY SEARCH TREE :
+1)FindMinDif : traverse using inOrder ,keep track of prev node and keep checking the min dif
 
 ALGORITHMS :
 1)Boyer Moore Algoirthm - finds the major element
@@ -46,5 +54,13 @@ TIPS:
 * if needed to use length or size method multiple times save it ina var and use it more less memmory and time usage
 * Creating a dummy node as a head and a temp node for iterating does not take much memory both are O(1) independently
 * Using an array is better than a hashMap for mapping
-
+* String is an object so need to use .equals() to compare
+* .put() in hashmap return NULL if new pair is added else return the newly updated value
+* Map map = new HashMap(); dynamic input key and value types
+* AutoBoxing of int is -128 to 127 ,so be careful while using primitive datatypes in a Collection or data structure;
+* Can use HashSet for sliding window problems
+* Creating a wrapper object takes more time and space than to create a primitive data type
+* Instead of adding and checking ,we can check and then add for better efficiency
+* Self checking and swaping of elements is a option too
+* While using iteration for arrays try to use the elements in the previous of cur index ,nothing after the cur index
 

@@ -1,2 +1,4 @@
-package LeetCode150.ArraysAndString;public class RemoveDuplicates2 {
+package LeetCode150.ArraysAndString;
+
+public class RemoveDuplicates2 {
 }

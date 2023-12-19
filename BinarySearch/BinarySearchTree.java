@@ -1,4 +1,4 @@
-package LeetCode150;
+package LeetCode150.BinarySearch;
 
 
 class TreeNode {
