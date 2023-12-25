@@ -1,0 +1,15 @@
+package LeetCode150.TwoPointers;
+
+public class TwoSum2 {
+    public int[] twoSum(int[] numbers, int target) {
+        int start = 0;
+        int end = numbers.length-1;
+
+        while(numbers[start] + numbers[end] != target){
+            if(numbers[start] +  numbers[end] < target) start++;
+            else end--;
+        }
+
+        return new int[]{start+1 , end+1};
+    }
+}

@@ -27,6 +27,7 @@ ARRAYS AND STRINGS:
 TWO POINTERS :
 1) ValidPalindrome = use i and j ,while loop from start(i) and end(j) only consider alphanumerics and check if equal
 2) IsSubSequence = use i for s and j for t,loop through t while finding if each of s exist ,return with if i = len of s
+3) TwoSum2 = use start and end ,add the elements in start and end ,if greater then end-- ,if lesser start++
 
 STACKS:
 1) ValidParentheses : use a stack, push closing when opening is found ,if closing is found check (if empty return false or is the top stack
@@ -46,8 +47,13 @@ BINARY SEARCH TREE :
 1)FindMinDif : traverse using inOrder ,keep track of prev node and keep checking the min dif
 
 ALGORITHMS :
-1)Boyer Moore Algoirthm - finds the major element
-2)Floyds Tortoise and hare - finds if a loop exist
+1) Boyer Moore Algorithm - finds the major element
+2) Floyd's Tortoise and hare - finds if a loop exist
+3) Sliding Window
+4) Peak and Valley approach
+5) Two Pointers
+6) Depth First Search (Inorder , perorder, postorder)
+
 
 TIPS:
 * String is an object so every method and operation takes more time and space use stringbuffer or stringbuilder
