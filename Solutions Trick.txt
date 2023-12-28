@@ -29,6 +29,8 @@ ARRAYS AND STRINGS:
 10) LengthOfLastString = iterate from last, check if its a char count++ when a empty space is reached break;
 11) RotateArray = reverse the last K elements and first 0 to k-1 elements seperately and reverse the whole array
 12) BestTimeSellStock2 = add maxProfit when prices[i] > prices[i-1]
+13) ReverseWordsInString = a) Two pointes swap String array and use String.join()
+                           b) Use String builder and append
 
 
 TWO POINTERS :
