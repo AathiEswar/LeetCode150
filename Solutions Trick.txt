@@ -6,6 +6,8 @@ HASHMAP:
                     a particular element is not matching return false
 5) ContainsDup2 = a) Using Hashset for sliding window for add and remove when i>=k conditon
                   b) Using hashmap for i-curval <=k condition
+6) LongestConsecutiveSequence = a) use sorting method , iterate through the sequence and store the max count
+                                b) use HashSet to find the start seq element - num-1 not exist and store the max sequence length
 
 
 6) HappyNumber = The happy number sequence forms a infinite cyclic pattern if its not a happy number
@@ -51,13 +53,18 @@ BINARY SEARCH :
 BINARY SEARCH TREE :
 1)FindMinDif : traverse using inOrder ,keep track of prev node and keep checking the min dif
 
+INTERVALS:
+1)SummaryRanges : iterate,start == nums[i], move till the they are in a sequence , print the start and end(nums[i])
+
 ALGORITHMS :
 1) Boyer Moore Algorithm - finds the major element
 2) Floyd's Tortoise and hare - finds if a loop exist
 3) Sliding Window
 4) Peak and Valley approach
 5) Two Pointers
-6) Depth First Search (Inorder , perorder, postorder)
+6) Depth First Search (Inorder , preorder, postorder)
+
+
 
 
 TIPS:
