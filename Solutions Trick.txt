@@ -58,6 +58,14 @@ BINARY SEARCH TREE :
 INTERVALS:
 1)SummaryRanges : iterate,start == nums[i], move till the they are in a sequence , print the start and end(nums[i])
 
+
+MATH:
+1) Sqrt : a) use Newtons algorithm
+          b) Binary Search
+2) IsPalindrome : a) half iteration using while loop (original > reverse) and return with normal and /10 expression
+                  b) finding the significant 10s multiple and chopping left and right while comparing
+
+
 ALGORITHMS :
 1) Boyer Moore Algorithm - finds the major element
 2) Floyd's Tortoise and hare - finds if a loop exist
