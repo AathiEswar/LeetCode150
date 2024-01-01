@@ -37,6 +37,8 @@ TWO POINTERS :
 1) ValidPalindrome = use i and j ,while loop from start(i) and end(j) only consider alphanumerics and check if equal
 2) IsSubSequence = use i for s and j for t,loop through t while finding if each of s exist ,return with if i = len of s
 3) TwoSum2 = use start and end ,add the elements in start and end ,if greater then end-- ,if lesser start++
+4) ContainerWithWater = i and j , find minheight and max area , loop from left till greater element than min height same for right
+                        find max area again and repeat
 
 STACKS:
 1) ValidParentheses : use a stack, push closing when opening is found ,if closing is found check (if empty return false or is the top stack
@@ -64,6 +66,8 @@ MATH:
           b) Binary Search
 2) IsPalindrome : a) half iteration using while loop (original > reverse) and return with normal and /10 expression
                   b) finding the significant 10s multiple and chopping left and right while comparing
+
+
 
 
 ALGORITHMS :
