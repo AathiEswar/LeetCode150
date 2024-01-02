@@ -31,6 +31,7 @@ ARRAYS AND STRINGS:
 12) BestTimeSellStock2 = add maxProfit when prices[i] > prices[i-1]
 13) ReverseWordsInString = a) Two pointes swap String array and use String.join()
                            b) Use String builder and append
+14) JumpGame = calculate maxJump of each element and store the maxJump check if we can reach above the current index
 
 
 TWO POINTERS :
@@ -66,7 +67,8 @@ MATH:
           b) Binary Search
 2) IsPalindrome : a) half iteration using while loop (original > reverse) and return with normal and /10 expression
                   b) finding the significant 10s multiple and chopping left and right while comparing
-
+3) PlusOne : if the unit digit is less than 9 ele++ and return else make it zero , after the loop ends the array will be filled with 9
+             so just create new array with +1 length than previous and add 1 to the first element
 
 
 
