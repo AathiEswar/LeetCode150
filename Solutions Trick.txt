@@ -51,6 +51,8 @@ LINKEDLIST:
                      b)Floyds Tortoise and hare algorithm
 
 2) MergeTwoSortedList : create a dummy for head and temp for iterating and loop through both the list while comparing the values
+3) AddTwoNumbers : Iterate while(l1 != null || l2 != null || carry !=0) update carry and sum and add it in new dummy nodeList if no element
+                   then 0 and if no next element then null
 
 BINARY SEARCH :
 1) Search Insert Position : use classic binary search but return start at the last
