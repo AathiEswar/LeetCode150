@@ -64,6 +64,7 @@ BINARY TREE GENERAL :
 1) MaximumDepth : use recursion postorder with if(rlen >  llen)return (rlen+1); else return (llen + 1); for return
 2) SameTree : inorder but middle is to check if both treenodes are same
 3) InvertTree : swap treeNodes with preorder
+4) PathSum : inOrder , iterate while checking if the current val == target-rootval , return left||right
 
 
 INTERVALS:
