@@ -65,6 +65,7 @@ BINARY TREE GENERAL :
 2) SameTree : inorder but middle is to check if both treenodes are same
 3) InvertTree : swap treeNodes with preorder
 4) PathSum : inOrder , iterate while checking if the current val == target-rootval , return left||right
+5) CountNodes : count all the null nodes and -1 for the actual nodes
 
 
 INTERVALS:
