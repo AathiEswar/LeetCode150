@@ -40,6 +40,8 @@ TWO POINTERS :
 3) TwoSum2 = use start and end ,add the elements in start and end ,if greater then end-- ,if lesser start++
 4) ContainerWithWater = i and j , find minheight and max area , loop from left till greater element than min height same for right
                         find max area again and repeat
+5) 3Sum = iterate with i , use two pointers in the rem elements , if all the 3 adds to zero then add to a list ,
+            make sure to iterate through the dup elements
 
 STACKS:
 1) ValidParentheses : use a stack, push closing when opening is found ,if closing is found check (if empty return false or is the top stack
