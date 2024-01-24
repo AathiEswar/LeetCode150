@@ -42,6 +42,7 @@ TWO POINTERS :
                         find max area again and repeat
 5) 3Sum = iterate with i , use two pointers in the rem elements , if all the 3 adds to zero then add to a list ,
             make sure to iterate through the dup elements
+6)
 
 STACKS:
 1) ValidParentheses : use a stack, push closing when opening is found ,if closing is found check (if empty return false or is the top stack
