@@ -32,6 +32,9 @@ ARRAYS AND STRINGS:
 13) ReverseWordsInString = a) Two pointes swap String array and use String.join()
                            b) Use String builder and append
 14) JumpGame = calculate maxJump of each element and store the maxJump check if we can reach above the current index
+15) JumpGame2 = calculate the max jump of each element , two cases : a) if last element or beyond count++ and break
+                                                                     b) have a temp end (i.e reachable) if reached count++ and reassign
+                                                                        end to reach
 
 
 TWO POINTERS :
