@@ -35,6 +35,7 @@ ARRAYS AND STRINGS:
 15) JumpGame2 = calculate the max jump of each element , two cases : a) if last element or beyond count++ and break
                                                                      b) have a temp end (i.e reachable) if reached count++ and reassign
                                                                         end to reach
+16) HIndex = Compare the count and the citations in a loop
 
 
 TWO POINTERS :
@@ -78,7 +79,8 @@ BINARY TREE BFS :
 
 
 INTERVALS:
-1)SummaryRanges : iterate,start == nums[i], move till the they are in a sequence , print the start and end(nums[i])
+1) SummaryRanges : iterate,start == nums[i], move till the they are in a sequence , print the start and end(nums[i])
+2) MergeIntervals : Use List , check first arr end and second arr last and merge if needed
 
 
 MATH:
@@ -118,4 +120,4 @@ TIPS:
 * While using iteration for arrays try to use the elements in the previous of cur index ,nothing after the cur indx
 * set.add(n) return if the n is already in the set or not in boolean
 * We can actually swap null with some object
-
+* Changing int[] outside will also change it inside a List<int[]> because all are objects
