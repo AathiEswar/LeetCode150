@@ -91,7 +91,10 @@ MATH:
 3) PlusOne : if the unit digit is less than 9 ele++ and return else make it zero , after the loop ends the array will be filled with 9
              so just create new array with +1 length than previous and add 1 to the first element
 
-
+SLIDING WINDOW :
+1) MinSubArray : use sliding window (two pointers) , iterate from left , add each element to the sum if the sum if equal or greater it is
+                we could assume that it is the max window that we can have and from there we only need to decrement our window
+                minWindow = min( minWindow , right - left + 1 ) keeping chopping left value untill the sum > = target
 
 ALGORITHMS :
 1) Boyer Moore Algorithm - finds the major element
