@@ -36,6 +36,7 @@ ARRAYS AND STRINGS:
                                                                      b) have a temp end (i.e reachable) if reached count++ and reassign
                                                                         end to reach
 16) HIndex = Compare the count and the citations in a loop
+17) ProductOfArraySelf = must be O(n) so calculate suffix and prefix product in separate loops and add each other
 
 
 TWO POINTERS :
