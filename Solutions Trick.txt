@@ -96,14 +96,18 @@ SLIDING WINDOW :
                 we could assume that it is the max window that we can have and from there we only need to decrement our window
                 minWindow = min( minWindow , right - left + 1 ) keeping chopping left value untill the sum > = target
 
+2) LongestSubString : typical sliding window algorithm  but handle both contains and not contains seperately ,
+                      you dont need to add into set and then check you can check before inserting too
+
 ALGORITHMS :
 1) Boyer Moore Algorithm - finds the major element
 2) Floyd's Tortoise and hare - finds if a loop exist
-3) Sliding Window
+3) Sliding Window - flexible window (mostly O(n) )
 4) Peak and Valley approach
 5) Two Pointers
 6) Depth First Search (Inorder , preorder, postorder)
-
+7) Breadth First Search (using queue )
+8) Interval window - fixed sliding window
 
 
 
