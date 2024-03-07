@@ -37,6 +37,7 @@ ARRAYS AND STRINGS:
                                                                         end to reach
 16) HIndex = Compare the count and the citations in a loop
 17) ProductOfArraySelf = must be O(n) so calculate suffix and prefix product in separate loops and add each other
+18) Gas Station = use greedy algorithm , when the total dips below zero answer might be the next index (check if costarr < gasarr)
 
 
 TWO POINTERS :
@@ -109,6 +110,7 @@ ALGORITHMS :
 6) Depth First Search (Inorder , preorder, postorder)
 7) Breadth First Search (using queue )
 8) Interval window - fixed sliding window
+9) Greedy algorithm - Choose the current best solution (coping) not reversing the decision made
 
 
 
@@ -129,3 +131,4 @@ TIPS:
 * set.add(n) return if the n is already in the set or not in boolean
 * We can actually swap null with some object
 * Changing int[] outside will also change it inside a List<int[]> because all are objects
+* Leverage if unique solutions exist
