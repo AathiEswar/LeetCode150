@@ -68,6 +68,9 @@ LINKEDLIST:
                   (use tail.next = head to start looping straight from tail ) loop till the rotate count (size-count)
                   and switch the next of tail to head and tail.next to null
 
+5) RemoveNthFromLast : a) Two Pass - find the lenght of the linked list first , iterate till the size-k and if its head ,
+                           head = head.next else it must be any other element so cur.next = cur.next.next
+
 
 BINARY SEARCH :
 1) Search Insert Position : use classic binary search but return start at the last
