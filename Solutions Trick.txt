@@ -68,8 +68,12 @@ LINKEDLIST:
                   (use tail.next = head to start looping straight from tail ) loop till the rotate count (size-count)
                   and switch the next of tail to head and tail.next to null
 
-5) RemoveNthFromLast : a) Two Pass - find the lenght of the linked list first , iterate till the size-k and if its head ,
+5) RemoveNthFromLast : a) Two Pass - find the length of the linked list first , iterate till the size-k and if its head ,
                            head = head.next else it must be any other element so cur.next = cur.next.next
+                       b) One Pass - If we have two pointers with N nodes as gap , after the right node reaches beyond end
+                           the left node would be on the node to be deleted , instead of using a prev pointer we can use a dummy node
+                           before head and start left frm there the left will be placed on the before of element to be deleted
+                           next left.next = left.next.next and return dummy.next which is the head
 
 
 BINARY SEARCH :
@@ -141,3 +145,4 @@ TIPS:
 * We can actually swap null with some object
 * Changing int[] outside will also change it inside a List<int[]> because all are objects
 * Leverage if unique solutions exist
+* The gab between nodes reflects the nth element from the last element after the right node reaches beyond last
