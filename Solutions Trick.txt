@@ -92,6 +92,8 @@ BINARY TREE GENERAL :
 BINARY TREE BFS :
 1) AverageOfLevels : use BFS and calculate avg of each level using queue for bfs and list for storing avg
 2) RightSideView : use BFS and only queue the last elements in the queue (i == 0 then add to result list)
+3) LevelOrderInList : Use Bfs and just add each iteration of the while loop to sublist and add it to the
+                        main list after the for loop ends
 
 INTERVALS:
 1) SummaryRanges : iterate,start == nums[i], move till the they are in a sequence , print the start and end(nums[i])
