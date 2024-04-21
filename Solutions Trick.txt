@@ -127,7 +127,8 @@ ALGORITHMS :
 7) Breadth First Search (using queue )
 8) Interval window - fixed sliding window
 9) Greedy algorithm - Choose the current best solution (coping) not reversing the decision made
-
+10) Euclidean algorithm
+11) Encoding two elements into one
 
 
 TIPS:
@@ -149,3 +150,4 @@ TIPS:
 * Changing int[] outside will also change it inside a List<int[]> because all are objects
 * Leverage if unique solutions exist
 * The gab between nodes reflects the nth element from the last element after the right node reaches beyond last
+* Euclidean algorithm for encoding two elements into one element ->   a = a + (b%n) * n;
