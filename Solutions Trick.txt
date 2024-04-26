@@ -151,3 +151,4 @@ TIPS:
 * Leverage if unique solutions exist
 * The gab between nodes reflects the nth element from the last element after the right node reaches beyond last
 * Euclidean algorithm for encoding two elements into one element ->   a = a + (b%n) * n;
+* Start From indx 1 so we can check till end easily 
