@@ -151,3 +151,5 @@ TIPS:
 * Leverage if unique solutions exist
 * The gab between nodes reflects the nth element from the last element after the right node reaches beyond last
 * Euclidean algorithm for encoding two elements into one element ->   a = a + (b%n) * n;
+* Lookup.put(nums[i] , lookup.getOrDefault(nums[i] , 0 )+1  ) for populating a hashmap with the frequency in one line
+* gcd can be used to find if all the given input can be made a pair or be in a certain set
