@@ -151,9 +151,10 @@ TIPS:
 * Leverage if unique solutions exist
 * The gab between nodes reflects the nth element from the last element after the right node reaches beyond last
 * Euclidean algorithm for encoding two elements into one element ->   a = a + (b%n) * n;
-<<<<<<< HEAD
 * Lookup.put(nums[i] , lookup.getOrDefault(nums[i] , 0 )+1  ) for populating a hashmap with the frequency in one line
 * gcd can be used to find if all the given input can be made a pair or be in a certain set
-=======
-* Start From indx 1 so we can check till end easily 
->>>>>>> d6d0c806b146a42c50e91e432cac250f9f113eba
+* Start From indx 1 so we can check prefix till end easily
+* To check if a number exist in an array , we can loop it but to find if that number has a sequence , we can loop and when
+  founded just increment the number and start iteration from i=0
+* When need to DFS for a boolean value , use && or ||  in return left and right and only false when the condition is violated ( univalued BT DFS)
+* Inorder of a BST is sorted Array
