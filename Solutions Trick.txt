@@ -158,3 +158,6 @@ TIPS:
   founded just increment the number and start iteration from i=0
 * When need to DFS for a boolean value , use && or ||  in return left and right and only false when the condition is violated ( univalued BT DFS)
 * Inorder of a BST is sorted Array
+* When comparing values based on a particular actions on them its better to not do every operation while comparing
+* Three points are in the same line if their collinearity is true that is slope AB = slope BC ( x2-x1/ y2 - y1 = x2-x3 / y2 - y3)
+
