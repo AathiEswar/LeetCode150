@@ -119,7 +119,7 @@ SLIDING WINDOW :
 
 ALGORITHMS :
 1) Boyer Moore Algorithm - finds the major element
-2) Floyd's Tortoise and hare - finds if a loop exist
+2) Floyd's Tortoise and hare - finds if a loop exist and middle element in a linked list
 3) Sliding Window - flexible window (mostly O(n) )
 4) Peak and Valley approach
 5) Two Pointers
@@ -129,8 +129,11 @@ ALGORITHMS :
 9) Greedy algorithm - Choose the current best solution (coping) not reversing the decision made
 10) Euclidean algorithm
 11) Encoding two elements into one
-12) Brian Kernighan Algorithm - find the 1s in binary number - turns off the right most bit ( i.e 1s )
+12) Brian Kernighan Algorithm - find the 1s in binary number
+    - turns off the right most bit ( i.e 1s ) - the difference between x and x-1 one is the damn 1
 13) Collinearity of points - if a straight line - slope of three points if same / two lines
+14) Bitwise operations to replace operations by 2
+15) XOR to find unique elements in array
 
 TIPS:
 * String is an object so every method and operation takes more time and space use stringbuffer or stringbuilder
@@ -166,5 +169,8 @@ TIPS:
             a) n % 2 == n&1
             b) n / 2 == n>>1
             c) n * 2 == n<<1
+
+* XOR returns 0 when same two elements are XOR-ed
+
 
 
