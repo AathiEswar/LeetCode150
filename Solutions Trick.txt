@@ -57,7 +57,7 @@ STACKS:
                         doesnt match then return false)
 
 
-LINKEDLIST:
+LINKED LIST:
 1) LinkedListCycle : a)HashMap - iterate through the head if element already in hashmap return true else put the head in the hashmap
                      b)Floyds Tortoise and hare algorithm
 
@@ -163,7 +163,7 @@ TIPS:
 * When need to DFS for a boolean value , use && or ||  in return left and right and only false when the condition is violated ( univalued BT DFS)
 * Inorder of a BST is sorted Array
 * When comparing values based on a particular actions on them its better to not do every operation while comparing
-* Three points are in the same line if their collinearity is true that is slope AB = slope BC ( x2-x1/ y2 - y1 = x2-x3 / y2 - y3)
+* Three points are in the same line if their colinearity is true that is slope AB = slope BC ( x2-x1/ y2 - y1 = x2-x3 / y2 - y3)
 * we can find the no.of digits using (int)Math.log10(number) + 1
 * Replace operations of 2 using the bitwise operators
             a) n % 2 == n&1
@@ -171,6 +171,9 @@ TIPS:
             c) n * 2 == n<<1
 
 * XOR returns 0 when same two elements are XOR-ed
+* matrix rowSum == colSum ( Ramanujan Matrix )
+* In graphs , we can sometimes use the given grid itself as a visited structure
+* try to divide the sum as seperate component graphs and add them to queue , solve it after that ( eg - 01 matrix )
 
 
 
